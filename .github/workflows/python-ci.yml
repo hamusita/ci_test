@@ -5,6 +5,10 @@ on:
     branches:
       - feature/py_test
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
