@@ -3,7 +3,7 @@ name: Python CI
 on:
   push:
     branches:
-      - feature/py_test
+      - feature/python_test
 
 jobs:
   build:
